@@ -1,13 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
-    margin: 0;
+
 }
 
 .nav {
-    background-color: #383737;
+    display: inline-block;
+    position: relative;
 }
 
 .nav-dropdown {
-    color: #fff;
+    color: white;
+    background-color: chartreuse;
     text-decoration: none;
-    display: inline-block;
+    padding: 14px 16px;
+    min-width: 128px;
+    cursor: pointer;
+    display: block;
+}
+
+.list {
+    display: none;
+    position: absolute;
+    background-color: fuchsia;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.list .item {
+    color: black;
+    padding: 14px 16px;
+    display: block;
+}
+
+.nav:hover .list {
+    display: block
+}
+
+.nav .item:hover {
+    background-color: orange;
+    cursor: pointer;  
 }

@@ -2,25 +2,54 @@ body {
     margin: 0;
 }
 
-.container {
-    display: grid;
-    min-height: 100vh;
-}
+@media (max-width: 768px) {
+    .container {
+        grid-template-areas: 
+        "nav nav"
+        "main main"
+        "footer footer";
+    }
 
-.nav {
-    height: 50px;
-    background-color: rebeccapurple;
+    .aside{
+        visibility: hidden;
+    }
 }
 
 .aside {
     background-color: forestgreen;
 }
 
-.main {
+.container {
+    display: grid;
+    min-height: 100vh;
+    grid-auto-columns: minmax(100px auto);
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    "nav nav"
+    "aside main"
+    "aside footer";
+}
 
+.nav {
+    height: 50px;
+    background-color: rebeccapurple;
+    grid-area: nav;
+}
+
+.aside {
+    background-color: forestgreen;
+    height: 100%;
+    grid-area: aside;
+}
+
+.main {
+    text-align: center;
+    grid-area: main;
 }
 
 .footer {
     height: 100px;
     background-color: midnightblue;
+    grid-area: footer;
+    display: block;
 }

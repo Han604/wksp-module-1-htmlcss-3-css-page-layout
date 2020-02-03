@@ -1,0 +1,45 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h2 {
+    font-weight: lighter;
+    letter-spacing: -1px;
+}
+
+.blue {
+    color: #51a0d5;
+}
+
+.blue2::after {
+    content: ' >'
+}
+
+div {
+    text-align: center;
+    margin: auto;
+
+}
+
+.h2 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.button {
+    display:inline-block;
+    text-align: center;
+    color: darkslategrey;
+    font-size: 1.5em;
+    border: 2px solid darkslategrey;
+    border-radius: .3em;
+    padding: 0.3em 1em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
