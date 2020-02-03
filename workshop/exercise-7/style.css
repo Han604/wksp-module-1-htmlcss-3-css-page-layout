@@ -1,0 +1,19 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+img {
+    outline: 1px solid red;
+    width: 100%;
+    /* min-height: 33.33%; */
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 0px;
+    align-items: center;
+    justify-items: center;
+}

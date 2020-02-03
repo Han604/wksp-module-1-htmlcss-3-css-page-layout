@@ -4,32 +4,57 @@ body {
 }
 
 .header {
-
+    text-align: center;
+    background-color: cadetblue;
+    color: white;
+    font-size: 2em;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
 }
 
 .registration-form {
-
+    border: 1px solid lightgrey;
+    border-radius: .25em;
+    box-shadow:1px 1px 1px 1px lightgrey;
+    padding: 1em;
+    margin: 2em 4em;
+    /* text-align: center; */
+/* display: grid; */
+/* grid-template-columns: repeat(3, 1fr); */
 }
 
 .text-field {
-
+    display: block;
+    width: 33.333%;
+    margin-left: 33.333%;
+    border-radius: 2px;
+    border:3px solid lightblue;
 }
 
 .radio-label,
 .checkbox-label {
+    display: inline-block;
+    text-align: left;
+    /* padding-left: 2em ; */
 
 }
 
 label {
-
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .section {
-
+    border-top: 1px solid lightgrey;
+    margin-top: .5em;
+    padding-top: .75em;
 }
 
 .section > label {
-
+display: inline-block;
+text-align: left;
 }
 
 select {
@@ -37,13 +62,25 @@ select {
 }
 
 textarea {
-
+display: block;
+width: 100%;
+min-height: 100px;
+background-color: #ddd;
+border: none;
 }
 
 .form-button {
-
+    display: grid;
+    background-color: #fff;
+    width: 100px;
+    height: 75px;
+    justify-items: center;
+    align-items: center;
+    margin-left: 46%;
+    margin-top: 1em;
 }
 
 .form-button:hover {
-    
+    background-color: lightblue;
+    cursor: pointer;
 }

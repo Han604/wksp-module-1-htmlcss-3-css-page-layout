@@ -84,4 +84,6 @@ textarea {
 .form-button:hover {
     background-color: #0096fb;
     color: #fff;
+    display: block;
+    /* text-align: center; */
 }

@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #333;
+    padding: 14px 16px;
+    display: flex;
+    color: white;
+    text-align: center;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.apple {
+    padding-top: 10px;
+}
+
+a:visited {
+    color: white;
+}
+
+.button:hover {
+    opacity: 80%;
+    transition: ease 250ms;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', 'sans-serif';
+}

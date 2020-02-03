@@ -149,6 +149,15 @@ Media queries can be used to check many things, such as:
 - Rotate
 - Scale
 
+
+<!-- this is how you make the thing rotate :) -->
+transition:all linear 500ms;
+
+div.x:hover {
+    transform:rotate(Xdeg)
+}
+<!-- :))))))))))))))) -->
+
 [Try it](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_transform) | [Trnasform Generator](https://html-css-js.com/css/generator/transform/)
 
 ---
